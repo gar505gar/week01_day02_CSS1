@@ -1,13 +1,50 @@
-body
-{
-    background-color: chocolate;
-    text-align:center ;
+/*margin of 2% around the entire page.*/
+body{
+	margin: 2%;
+}
+	
+h3{
+    background-color: orangered;
+    text-align: center;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;}
+p {
+    font-family: 'Times New Roman';
+    color:  maroon;
+}
+/* h3 elements should be chocolate in color except for the
+heading that contains the text “The info below is NOT mine…. ” red */
 
+h3 {
+    color: chocolate;
 }
 
+#redText {
+    color: red;
+}
+/* At the bottom of the page add a 3x2 table with the headings “Web 1.0”, “Web 2.0”
+and “Web 3.0”. Add a sentence that describes the key characteristics of each version
+of the web. Make the column headings of this table centered and red, and the rest
+of the content purple.
+Centre the table on the page. */
+table{
+    border:  3px solid gray;
+    margin: auto;
+    width:50%;
+    } 
 
-   
-   
-   p{color: crimson};
-h3{color: rgb(184, 11, 11);
-background-color:
+th{
+    text-align: center;
+    color: red;
+    padding:30px;
+}
+td{
+    text-align: center;
+    color: purple;
+    border: 2px solid gray;
+    
+}
+
